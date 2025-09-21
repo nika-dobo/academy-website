@@ -2,12 +2,49 @@
 
 academy-website/
 │
-├─ index.html           (მთავარი)
-├─ programs.html        (პროგრამები / კურსები)
-├─ teachers.html        (მასწავლებლები)
-├─ student-life.html    (სტუდენტური ცხოვრება)
-├─ about.html           (ჩვენს შესახებ)
-├─ contact.html         (დაგვიკავშირდით)
+├─ index.html
+│   ├─ Hero Banner (მოკლე მესიჯი, CTA ღილაკი)
+│   ├─ About Preview (3–4 ძირითადი მიზეზი აკადემიის არჩევისთვის)
+│   ├─ Programs Preview (საგნები, მოკლე აღწერა, ლინკი სრულ გვერდზე)
+│   ├─ News / Events (ბლოკები ახალ ამბებსა და ღონისძიებებზე)
+│   ├─ Footer (Social Links, Contact Info, Copyright)
+│
+├─ programs.html
+│   ├─ Page Header (სათაური "Programs")
+│   ├─ Courses Grid (სურათი, სახელი, მოკლე აღწერა, ხანგრძლივობა)
+│   ├─ Categories / Filters CSS-only (მაგ. Undergraduate, Graduate)
+│   ├─ CTA Buttons ("Learn More", "Apply Now")
+│   ├─ Footer
+│
+├─ teachers.html
+│   ├─ Page Header (სათაური "Teachers")
+│   ├─ Teacher Cards (ფოტო, სახელი, წოდება, მოკლე ბიო)
+│   ├─ Hover Info (დამატებითი დეტალები CSS :hover-ით)
+│   ├─ Staff Statistics (გამოცდილება, წ publicados papers)
+│   ├─ Footer
+│
+├─ student-life.html
+│   ├─ Page Header (სათაური "Student Life")
+│   ├─ Photo Gallery / Activity Blocks (სტუდენტური აქტივობები)
+│   ├─ Clubs & Sports (მოკლე აღწერა)
+│   ├─ Testimonials / Quotes (ბლოკები ან CSS-only carousel)
+│   ├─ Footer
+│
+├─ about.html
+│   ├─ Page Header (სათაური "About Us")
+│   ├─ History Timeline / Milestones
+│   ├─ Vision & Mission Blocks
+│   ├─ Founders / Staff Info (ფოტო + მოკლე ბიო)
+│   ├─ Media Section (Photo or HTML5 Video)
+│   ├─ Footer
+│
+├─ contact.html
+│   ├─ Page Header (სათაური "Contact")
+│   ├─ Contact Form (Name, Email, Message)
+│   ├─ Contact Details (Phone, Email, Address)
+│   ├─ Map Embed (Google Maps iframe)
+│   ├─ Social Links / Icons
+│   ├─ Footer
 │
 ├─ style.css 
 │ 
@@ -16,45 +53,5 @@ academy-website/
     ├─ hero.jpg
     ├─ teachers/
     ├─ programs/
-    └─ students/
-
-
-1️⃣ index.html — მთავარი
-
-დიდი გმირის ბლოკი აკადემიის ფოტოთი, სლოგანით ან მისიით.
-ღილაკები/ბმულები კურსებსა და პროგრამებზე წვდომისთვის.
-მოკლე ბლოკი "რატომ უნდა აგვირჩიოთ ჩვენ" (ბარათებში 3-4 შეღავათი).
-
-
-2️⃣ programs.html — პროგრამები / კურსები
-
-კურსების სია ბარათებში (CSS Grid ან Flexbox).
-თითოეული ბარათი შეიცავს: სურათს, კურსის სათაურს და მოკლე აღწერას.
-ღილაკი "შეიტყვეთ მეტი" (შეიძლება იმავე გვერდზე გადახვიდეთ, მხოლოდ საჩვენებლად).
-
-
-3️⃣ teachers.html — მასწავლებლები
-
-მასწავლებლების ფოტოები ბადეში.
-ფოტოს ქვეშ: სახელი, საგანი/სპეციალობა, მოკლე ბიოგრაფია.
-მაუსის გადატანა ფოტოს მცირედი გადიდებით ან ჩრდილით.
-
-
-4️⃣ student-life.html — სტუდენტური ცხოვრება
-
-ღონისძიებების ფოტო გალერეა (CSS Grid).
-შეგიძლიათ დაამატოთ მარტივი CSS სლაიდერი (@keyframes animation).
-
-
-5️⃣ about.html — ჩვენს შესახებ
-
-აკადემიის ისტორია, დანიშნულება და ღირებულებები.
-შეგიძლიათ შექმნათ CSS დროის სქემი (ვერტიკალური ან ჰორიზონტალური დროის სქემი თარიღებითა და მოვლენებით).
-შენობის ფოტო, ლოგო.
-
-
-6️⃣ contact.html — კონტაქტები
-
-მისამართი, რუკა (რუკის სურათი), ტელეფონის ნომრები, ელ. ფოსტა.
-საკონტაქტო ფორმა (მხოლოდ მარკირება, JavaScript-ის გარეშე).
-ფორმის ველის სტილი: :focus effects.
+    ├─ students/
+    └─ .../
