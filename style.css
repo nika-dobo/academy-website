@@ -32,12 +32,17 @@ p {
   font-size: var(--sizeP);
   color: var(--colorP);
   font-weight: var(--weightP);
+  line-height: 150%;
 }
 
 h1 {
   font-size: var(--sizeH1);
   color: var(--colorH);
   font-weight: var(--weightH);
+}
+
+h1 span {
+  color: var(--secondarycolor);
 }
 
 h2 {
@@ -549,6 +554,24 @@ main {
   transform: translateY(-3px);
   box-shadow: 0px 0px 15px #00e676;
   background-color: #1de9b6;
+}
+
+/*! pro-sec-1 */
+
+.pro-sec-1 {
+  width: 100%;
+  margin-top: -70px;
+  background: linear-gradient(-225deg, rgba(0, 255, 132, 0.05), #0d1117);
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.pro-sec-1 p {
+  max-width: 600px;
 }
 
 /*! FOOTER  */
