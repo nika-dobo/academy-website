@@ -23,13 +23,6 @@ academy-website/
 │   ├─ Staff Statistics (გამოცდილება, წ publicados papers)
 │   ├─ Footer
 │
-├─ student-life.html
-│   ├─ Page Header (სათაური "Student Life")
-│   ├─ Photo Gallery / Activity Blocks (სტუდენტური აქტივობები)
-│   ├─ Clubs & Sports (მოკლე აღწერა)
-│   ├─ Testimonials / Quotes (ბლოკები ან CSS-only carousel)
-│   ├─ Footer
-│
 ├─ about.html
 │   ├─ Page Header (სათაური "About Us")
 │   ├─ History Timeline / Milestones
