@@ -1331,8 +1331,9 @@ main {
 .ab-sec-5 .main {
   margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
   gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .ab-sec-5 .main div {
