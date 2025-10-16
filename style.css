@@ -1332,6 +1332,7 @@ main {
   margin-top: 50px;
   display: flex;
   gap: 30px;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
