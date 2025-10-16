@@ -840,6 +840,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .tec-sec-2 .info {
@@ -1555,6 +1556,10 @@ main {
     gap: 50px;
     justify-content: center;
     padding: 20px;
+  }
+
+  .tec-sec-2 {
+    justify-content: space-around;
   }
 
   .tec-sec-3 {
