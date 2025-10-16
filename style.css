@@ -1573,4 +1573,9 @@ main {
   .ab-sec-4 .boss {
     width: 90%;
   }
+
+  .con-sec-3 iframe{
+    width: 95%;
+    height: 350px;
+  }
 }
