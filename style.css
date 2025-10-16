@@ -1343,6 +1343,7 @@ main {
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
   border-radius: 20px;
   border: 1px solid #263238;
