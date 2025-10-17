@@ -13,7 +13,7 @@
         <img src="img/main/logo.png" alt="">
 
 
-        <div>
+        <div class="nav">
             <a href="#" style="color: #00E676; text-decoration: underline;">Home</a>
             <a href="programs.html">programs</a>
             <a href="teachers.html">teachers</a>
@@ -21,7 +21,19 @@
             <a href="contact.html">contact</a>
         </div>
 
-        <img src="img/main/menu.svg" alt="">
+        <img src="img/main/menu.svg" alt="" id="menu-btn">
+
+        <nav id="menu-nav">
+            <a href="index.html">Home</a>
+            <div class="line" style="height: 1px;"></div>
+            <a href="programs.html">programs</a>
+            <div class="line" style="height: 1px;"></div>
+            <a href="teachers.html">teachers</a>
+            <div class="line" style="height: 1px;"></div>
+            <a href="about.html">about</a>
+            <div class="line" style="height: 1px;"></div>
+            <a href="contact.html">contact</a>
+        </nav>
 
     </header>
 
@@ -210,6 +222,15 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const menuNav = document.getElementById('menu-nav');
+
+        menuBtn.addEventListener('click', () => {
+            menuNav.classList.toggle('show');
+        });
+    </script>
 </body>
 
 </html>

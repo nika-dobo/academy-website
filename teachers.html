@@ -13,7 +13,7 @@
         <img src="img/main/logo.png" alt="">
 
 
-        <div>
+        <div class="nav">
             <a href="index.html">Home</a>
             <a href="programs.html">programs</a>
             <a href="#" style="color: #00E676; text-decoration: underline;">teachers</a>
@@ -21,7 +21,15 @@
             <a href="contact.html">contact</a>
         </div>
 
-        <img src="img/main/menu.svg" alt="">
+        <img src="img/main/menu.svg" alt="" id="menu-btn">
+
+        <nav id="menu-nav">
+            <a href="index.html">Home</a>
+            <a href="programs.html">programs</a>
+            <a href="teachers.html">teachers</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+        </nav>
 
     </header>
 
@@ -78,8 +86,7 @@
             </div>
 
             <div class="box box2">
-                <img src="img/teachers/547637042_1999725214122660_7859222083325003428_n.jpg"
-                    alt="">
+                <img src="img/teachers/547637042_1999725214122660_7859222083325003428_n.jpg" alt="">
                 <h3>Goga Chalauri</h3>
                 <p>Goga Chalauri loves technology and spends most of his time learning about programming.</p>
                 <div class="leg">
@@ -267,6 +274,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const menuNav = document.getElementById('menu-nav');
+
+        menuBtn.addEventListener('click', () => {
+            menuNav.classList.toggle('show');
+        });
+    </script>
+
+
 </body>
 
 </html>
